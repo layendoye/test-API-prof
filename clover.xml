@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1563800183">
+  <project timestamp="1563800183">
+    <package name="App\Controller">
+      <file name="/home/abdoulaye/Bureau/symfony-API/src/Controller/EmployeController.php">
+        <class name="App\Controller\EmployeController" namespace="App\Controller">
+          <metrics complexity="4" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="16" coveredelements="16"/>
+        </class>
+        <line num="21" type="method" name="index" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="30" type="method" name="ajout" visibility="public" complexity="3" crap="3" count="2"/>
+        <line num="32" type="stmt" count="2"/>
+        <line num="33" type="stmt" count="2"/>
+        <line num="34" type="stmt" count="2"/>
+        <line num="35" type="stmt" count="2"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <metrics loc="49" ncloc="40" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="16" coveredelements="16"/>
+      </file>
+    </package>
+    <package name="App\Entity">
+      <file name="/home/abdoulaye/Bureau/symfony-API/src/Entity/Employe.php">
+        <class name="App\Entity\Employe" namespace="App\Entity">
+          <metrics complexity="14" methods="9" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="12" elements="22" coveredelements="20"/>
+        </class>
+        <line num="41" type="method" name="getId" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="46" type="method" name="getMatricule" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <line num="51" type="method" name="setMatricule" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="53" type="stmt" count="2"/>
+        <line num="55" type="stmt" count="2"/>
+        <line num="58" type="method" name="getNom" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="60" type="stmt" count="2"/>
+        <line num="63" type="method" name="setNom" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="65" type="stmt" count="2"/>
+        <line num="67" type="stmt" count="2"/>
+        <line num="70" type="method" name="getPrenom" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="72" type="stmt" count="2"/>
+        <line num="75" type="method" name="setPrenom" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="77" type="stmt" count="1"/>
+        <line num="79" type="stmt" count="1"/>
+        <line num="82" type="method" name="getSalaire" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="84" type="stmt" count="2"/>
+        <line num="87" type="method" name="setSalaire" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="89" type="stmt" count="1"/>
+        <line num="91" type="stmt" count="1"/>
+        <metrics loc="93" ncloc="72" classes="1" methods="9" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="12" elements="22" coveredelements="20"/>
+      </file>
+    </package>
+    <package name="App\Form">
+      <file name="/home/abdoulaye/Bureau/symfony-API/src/Form/EmployeType.php">
+        <class name="App\Form\EmployeType" namespace="App\Form">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="11" coveredelements="11"/>
+        </class>
+        <line num="12" type="method" name="buildForm" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="15" type="stmt" count="2"/>
+        <line num="16" type="stmt" count="2"/>
+        <line num="17" type="stmt" count="2"/>
+        <line num="18" type="stmt" count="2"/>
+        <line num="19" type="stmt" count="2"/>
+        <line num="21" type="stmt" count="2"/>
+        <line num="23" type="method" name="configureOptions" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="25" type="stmt" count="2"/>
+        <line num="26" type="stmt" count="2"/>
+        <line num="29" type="stmt" count="2"/>
+        <metrics loc="30" ncloc="30" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="11" coveredelements="11"/>
+      </file>
+    </package>
+    <package name="App">
+      <file name="/home/abdoulaye/Bureau/symfony-API/src/Kernel.php">
+        <class name="App\Kernel" namespace="App">
+          <metrics complexity="6" methods="4" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="6" elements="23" coveredelements="8"/>
+        </class>
+        <line num="18" type="method" name="registerBundles" visibility="public" complexity="3" crap="3" count="3"/>
+        <line num="20" type="stmt" count="3"/>
+        <line num="21" type="stmt" count="3"/>
+        <line num="22" type="stmt" count="3"/>
+        <line num="23" type="stmt" count="3"/>
+        <line num="26" type="stmt" count="3"/>
+        <line num="28" type="method" name="getProjectDir" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="30" type="stmt" count="3"/>
+        <line num="33" type="method" name="configureContainer" visibility="protected" complexity="1" crap="2" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="45" type="method" name="configureRoutes" visibility="protected" complexity="1" crap="2" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <metrics loc="53" ncloc="53" classes="1" methods="4" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="6" elements="23" coveredelements="8"/>
+      </file>
+    </package>
+    <package name="DoctrineMigrations">
+      <file name="/home/abdoulaye/Bureau/symfony-API/src/Migrations/Version20190722085543.php">
+        <class name="DoctrineMigrations\Version20190722085543" namespace="DoctrineMigrations">
+          <metrics complexity="3" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="10" coveredelements="0"/>
+        </class>
+        <line num="15" type="method" name="getDescription" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="20" type="method" name="up" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="28" type="method" name="down" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <metrics loc="35" ncloc="28" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="10" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Repository">
+      <file name="/home/abdoulaye/Bureau/symfony-API/src/Repository/EmployeRepository.php">
+        <class name="App\Repository\EmployeRepository" namespace="App\Repository">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <line num="20" type="stmt" count="1"/>
+        <metrics loc="50" ncloc="14" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+    </package>
+    <metrics files="6" loc="310" ncloc="237" classes="6" methods="21" coveredmethods="15" conditionals="0" coveredconditionals="0" statements="64" coveredstatements="43" elements="85" coveredelements="58"/>
+  </project>
+</coverage>

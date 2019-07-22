@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Project Test Suite" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="6.127144">
+    <testsuite name="App\Tests\EmployeControllerTest" file="/home/abdoulaye/Bureau/symfony-API/tests/EmployeControllerTest.php" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="6.127144">
+      <testcase name="testIndex" class="App\Tests\EmployeControllerTest" classname="App.Tests.EmployeControllerTest" file="/home/abdoulaye/Bureau/symfony-API/tests/EmployeControllerTest.php" line="9" assertions="1" time="4.065162"/>
+      <testcase name="testAjoutOk" class="App\Tests\EmployeControllerTest" classname="App.Tests.EmployeControllerTest" file="/home/abdoulaye/Bureau/symfony-API/tests/EmployeControllerTest.php" line="18" assertions="1" time="1.551920">
+        <system-out>/home/abdoulaye/Bureau/symfony-API/src/Controller/EmployeController.php:38:
+array(4) {
+  'matricule' =&gt;
+  string(3) "004"
+  'nom' =&gt;
+  string(6) "ndiaye"
+  'prenom' =&gt;
+  string(4) "baye"
+  'salaire' =&gt;
+  int(2000000)
+}
+/home/abdoulaye/Bureau/symfony-API/tests/EmployeControllerTest.php:25:
+class Symfony\Component\HttpFoundation\Response#3131 (6) {
+  public $headers =&gt;
+  class Symfony\Component\HttpFoundation\ResponseHeaderBag#3132 (5) {
+    protected $computedCacheControl =&gt;
+    array(2) {
+      'no-cache' =&gt;
+      bool(true)
+      'private' =&gt;
+      bool(true)
+    }
+    protected $cookies =&gt;
+    array(0) {
+    }
+    protected $headerNames =&gt;
+    array(5) {
+      'cache-control' =&gt;
+      string(13) "Cache-Control"
+      'date' =&gt;
+      string(4) "Date"
+      'content-type' =&gt;
+      string(12) "Content-Type"
+      'link' =&gt;
+      string(4) "Link"
+      'x-robots-tag' =&gt;
+      string(12) "X-Robots-Tag"
+    }
+    protected $headers =&gt;
+    array(5) {
+      'cache-control' =&gt;
+      array(1) {
+        ...
+      }
+      'date' =&gt;
+      array(1) {
+        ...
+      }
+      'content-type' =&gt;
+      array(1) {
+        ...
+      }
+      'link' =&gt;
+      array(1) {
+        ...
+      }
+      'x-robots-tag' =&gt;
+      array(1) {
+        ...
+      }
+    }
+    protected $cacheControl =&gt;
+    array(0) {
+    }
+  }
+  protected $content =&gt;
+  string(15) "{"status":"ok"}"
+  protected $version =&gt;
+  string(3) "1.1"
+  protected $statusCode =&gt;
+  int(201)
+  protected $statusText =&gt;
+  string(7) "Created"
+  protected $charset =&gt;
+  string(5) "UTF-8"
+}
+</system-out>
+      </testcase>
+      <testcase name="testAjoutKo" class="App\Tests\EmployeControllerTest" classname="App.Tests.EmployeControllerTest" file="/home/abdoulaye/Bureau/symfony-API/tests/EmployeControllerTest.php" line="28" assertions="1" time="0.510062">
+        <system-out>/home/abdoulaye/Bureau/symfony-API/tests/EmployeControllerTest.php:35:
+class Symfony\Component\HttpFoundation\Response#3865 (6) {
+  public $headers =&gt;
+  class Symfony\Component\HttpFoundation\ResponseHeaderBag#3869 (5) {
+    protected $computedCacheControl =&gt;
+    array(2) {
+      'no-cache' =&gt;
+      bool(true)
+      'private' =&gt;
+      bool(true)
+    }
+    protected $cookies =&gt;
+    array(0) {
+    }
+    protected $headerNames =&gt;
+    array(5) {
+      'cache-control' =&gt;
+      string(13) "Cache-Control"
+      'date' =&gt;
+      string(4) "Date"
+      'content-type' =&gt;
+      string(12) "Content-Type"
+      'link' =&gt;
+      string(4) "Link"
+      'x-robots-tag' =&gt;
+      string(12) "X-Robots-Tag"
+    }
+    protected $headers =&gt;
+    array(5) {
+      'cache-control' =&gt;
+      array(1) {
+        ...
+      }
+      'date' =&gt;
+      array(1) {
+        ...
+      }
+      'content-type' =&gt;
+      array(1) {
+        ...
+      }
+      'link' =&gt;
+      array(1) {
+        ...
+      }
+      'x-robots-tag' =&gt;
+      array(1) {
+        ...
+      }
+    }
+    protected $cacheControl =&gt;
+    array(0) {
+    }
+  }
+  protected $content =&gt;
+  string(121) "{"form":{"children":{"matricule":{},"nom":{},"prenom":{},"salaire":{"errors":["This value is not valid."]}}},"errors":[]}"
+  protected $version =&gt;
+  string(3) "1.1"
+  protected $statusCode =&gt;
+  int(200)
+  protected $statusText =&gt;
+  string(2) "OK"
+  protected $charset =&gt;
+  string(5) "UTF-8"
+}
+</system-out>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>
